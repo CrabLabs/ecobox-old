@@ -8,7 +8,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{},t
 
 	// 3
 	this.instance = new lib.Animar6("synched",0);
-	this.instance.setTransform(275,42.9);
+	this.instance.setTransform(150,42.9);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -16,28 +16,28 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{},t
 
 	// 2
 	this.instance_1 = new lib.Animar3("synched",0);
-	this.instance_1.setTransform(282.2,253.3,1,1,60,0,0,40.9,70.5);
+	this.instance_1.setTransform(157.2,253.3,1,1,60,0,0,40.9,70.5);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(9).to({startPosition:0,_off:false},0).to({rotation:0,x:268.3,y:254.2},10,cjs.Ease.get(-0.99)).wait(56));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(9).to({startPosition:0,_off:false},0).to({rotation:0,x:143.3,y:254.2},10,cjs.Ease.get(-0.99)).wait(56));
 
 	// 1
 	this.instance_2 = new lib.Animar1("synched",0);
-	this.instance_2.setTransform(322.6,182.7,0.247,0.247);
+	this.instance_2.setTransform(197.6,182.7,0.247,0.247);
 	this.instance_2.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({scaleX:1,scaleY:1,alpha:1},9,cjs.Ease.get(1)).wait(66));
 
 	// txt
 	this.instance_3 = new lib.Animar8("synched",0);
-	this.instance_3.setTransform(275,315.2);
+	this.instance_3.setTransform(150,315.2);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(49).to({startPosition:0,_off:false},0).to({alpha:1},25,cjs.Ease.get(-0.99)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(312.5,165.3,20.2,34.8);
+p.nominalBounds = new cjs.Rectangle(187.5,165.3,20.2,34.8);
 
 
 // symbols:
