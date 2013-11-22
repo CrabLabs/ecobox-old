@@ -1,0 +1,45 @@
+input:focus, textarea:focus, select:focus {
+	outline: 1px solid #e0e0e0;
+}
+
+input, textarea, select{
+	background: $White;
+	border: none;
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: $light;
+	margin: 10px 0;
+	padding: 8px 10px;
+	&.transparent_black{
+		background: none;
+		border: 1px solid $Gray;
+		color: $Gray;
+	}
+	&.transparent_white{
+		background: none;
+		border: 1px solid $Smoke;
+		color: $Smoke;
+	}
+}
+
+textarea{
+	resize: none;
+}
+
+form{
+	&.transparent_black{
+		input, textarea, select{
+			background: none;
+			border: 1px solid $Gray;
+			color: $Gray;
+		}
+	}
+	&.transparent_white{
+		input, textarea, select{
+			background: none;
+			border: 1px solid $Smoke;
+			color: $Smoke;
+		}
+	}
+}

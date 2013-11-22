@@ -1,0 +1,40 @@
+// Core variables and mixins
+@import "variables";
+// @import "mixins"; /* For general mixins */
+
+
+// Normilize and reset
+@import "normalize";
+// @import "print"; /* For website printing version */
+
+// Core CSS
+@import "scaffolding";
+@import "types";
+@import "headers";
+@import "menus";
+@import "footers";
+@import "grid";
+@import "forms";
+@import "buttons";
+
+::selection{
+	background: rgba(0,0,0,0.07);
+	color: $c3;
+}
+
+// Components
+// @import "animations"; /* For common animations */
+// @import "icons"; /* For utility icons */
+// @import "breadcrumbs"; /* For breadcrumbs */
+// @import "pagination"; /* For paginations (Usefull to be compatible with bootstrap class names) */
+// @import "alerts"; /* For alerts */ 
+
+
+// Components w/ JavaScript
+// @import "lightbox";
+// @import "tooltips";
+// @import "slideshow";
+
+// Utility classes
+// @import "utilities"; /* Like .hide, .show */
+// @import "responsive-utilities"; /* Like .only-mobile, .only-desktop */

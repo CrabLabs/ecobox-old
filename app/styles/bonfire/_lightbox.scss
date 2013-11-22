@@ -1,0 +1,29 @@
+.lightboxable{
+	cursor: pointer;
+}
+
+.lightbox{
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	.container{
+		box-shadow: 0 0 10px black;
+		margin: auto;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		max-height: 70%;
+		max-width: 70%;
+		top: 0; left: 0; bottom: 0; right: 0;
+		img{
+			display: block;
+			margin: 0;
+			padding: 0;
+			width: 100%
+		}
+	}
+}

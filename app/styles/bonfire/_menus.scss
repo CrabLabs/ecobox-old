@@ -1,0 +1,58 @@
+.menu{
+	&.top{
+		height: 40px;
+		margin: 0;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index: 1000;
+	}
+	&.sidebar{
+		left: 0;
+		padding: 25px;
+		position: absolute;
+		width: 150px;
+		&.full-height{
+			height: 100%;
+		}
+		&.right{
+			left: auto;
+			right: 0;
+		}
+		&.transparent_dark, &.transparent_light{
+			border: none;
+		}
+		ul{
+			li{
+				list-style: none;
+			}
+		}
+	}
+	&.dark{
+		background: $Dark;
+		color: $Smoke;
+		#nav, li, a{
+			color: $Smoke;
+		}
+	}
+	&.light{
+		background: $White;
+		#nav, li, a{
+			color: $Gray;
+		}
+	}
+	&.transparent_dark{
+		background: none;
+		border-bottom: 1px solid $Dark;
+		#nav, li, a{
+			color: $Dark;
+		}
+	}
+	&.transparent_light{
+		background: none;
+		border-bottom: 1px solid $Smoke;
+		#nav, li, a{
+			color: $Smoke;
+		}
+	}
+}

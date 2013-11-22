@@ -1,0 +1,14 @@
+footer{
+	display: block;
+	background: $Dark;
+	height: 60px;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+	&.light{
+		background: $Smoke;		
+	}
+	a{
+		border-bottom: 1px dotted $Gray;
+	}
+}

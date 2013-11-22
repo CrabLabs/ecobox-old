@@ -1,0 +1,36 @@
+/* Default color palette */
+
+$White: #fff;
+$Smoke: #f0f0f0;
+$Gray: #666;
+$Dark: #333;
+
+/* Define your project color palette */
+
+$c1: #e3e1ca; /*lemon*/
+$c2: #faaf40; /*orange*/
+
+$c3: #ed1c24; /*brick*/
+
+$c4: #d4144a; /*lipstick*/
+$c5: #660030; /*purple*/
+
+
+/* Define the font */
+
+$font: 'Open Sans', sans-serif;
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+
+/* Standar Sizes */
+
+$bodyTopPadding: 40px;
+
+
+/* Media Queries Sizes */
+
+$mobile: "only screen and (max-width: 320px)";
+$mobile_mid: "only screen and (max-width: 640px)";
+$mobile_big: "only screen and (max-width: 1024px)";

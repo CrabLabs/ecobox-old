@@ -1,0 +1,83 @@
+.btn{
+	font-style: normal;
+	font-weight: $bold;
+	opacity: 1;
+	width: auto;
+	transition: all 200ms;
+	&.Dark{
+		background: $Dark;
+		color: $White;
+		&:hover{
+			background: $Gray;
+			color: $White;
+		}
+	}
+	&.transparent_dark{
+		background: none;
+		border: 1px solid $Gray;
+		&:hover{
+			background: $Gray;
+			color: $Smoke;
+		}
+	}
+	&.transparent_light{
+		background: none;
+		border: 1px solid $Smoke;
+		color: $Smoke;
+		&:hover{
+			background: $Smoke;
+			color: $Dark;
+		}
+	}
+	&.light{
+		background: $White;
+		color: $Dark;
+		&:hover{
+			background: $Smoke;
+			color: $Dark;
+		}
+	}
+	/* Variable color palette */
+	&.palette_1{
+		background: $c1;
+		color: $White;
+		&:hover{
+			background: $c2;
+			color: $White;
+		}
+	}
+	&.palette_2{
+		background: $c3;
+		color: $White;
+		&:hover{
+			background: $c4;
+			color: $White;
+		}
+	}
+	&.palette_3{
+		background: $c4;
+		color: $White;
+		&:hover{
+			background: $c5;
+			color: $White;
+		}
+	}
+	/* Sizes */
+	&.small{
+		font-size: 1em;
+	}
+	&.mid{
+		font-size: 1.5em;
+		padding: 12px 15px;
+	}
+	&.big{
+		font-size: 2em;
+		font-style: italic;
+		font-weight: $regular;
+		line-height: 2em;
+		padding: 16px 20px;
+	}
+	&:hover{
+		cursor: pointer;
+	}
+}
